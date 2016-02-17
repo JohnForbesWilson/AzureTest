@@ -1,0 +1,189 @@
+/* CSS Stylesheet
+Author: John F. Wilson
+ID: 1317066
+Date: 30 July 2014
+*/
+
+/* colour values = #rrggbb from 00 to FF; #000000=black, #FFFFFF=white */
+/* Addressing | element, .class, #ID, :pseudo-class */
+
+
+/* Basic Page Setup Starts Here: */
+
+html 	{
+    color:		magenta; /* test for unstyled items */
+    background: azure;
+}
+
+
+body 	{
+    width:				1000px;
+    background-color:	white;
+    margin-top:			10px;
+    margin-left:		auto;
+    margin-right:		auto;
+    margin-bottom:		10px;
+}
+
+
+header {
+    height: 		75px;
+    padding-top: 	1px;
+    padding-left: 	0px;
+    border-bottom: 	5px solid black;
+    position: 		relative;
+}
+
+section	{
+    min-height:		600px;
+}
+
+.page	{
+    padding-left: 	100px;
+    padding-right: 	20px;
+}
+
+
+.logo	{
+    float:			left;
+    width: 			75px;
+    margin-left: 	13px;
+    margin-top: 	10px;
+    margin-right: 	0px;
+}
+
+.module	{
+    position:		relative;
+    width: 			700px;
+    margin-left: 	100px;
+    /*margin-top: 	10px;*/
+    padding-top:	0px;
+    margin-right: 	10px;
+    /* border: 		2px solid blue; */
+}
+
+
+.lab	{
+    float:			right;
+    width: 			175px;
+    padding-left: 	5px;
+    margin-top: 	10px;
+    margin-right: 	13px;
+    background-color: #FFCCFF;
+}
+
+
+.thumbnail {
+    width: 			178px;
+    height: 		100px;
+    border:			1px solid blue;
+
+}
+
+form	{
+    margin-left: 	100px;
+    color: 			black;
+    font-family:	Arial;
+    font-size:		12pt;
+    font-weight:	normal
+}
+
+footer {
+    clear: both;
+    height: 		50px;
+    margin-top: 	15px;
+    padding-left: 	100px;
+    padding-top:	5px;
+    border-top:		5px solid #000000;
+    background-color:	#F0F0F0;
+}
+
+
+h1 {							/* used in header */
+    color:			#000000;
+    margin-top:		12px;
+    margin-bottom:	0px;
+    font-family:	Arial;
+    font-size:		20pt;
+    font-weight:	bold;
+}
+
+h2 {
+    color:			#DD0000;	/* red */
+    margin-top:		10px;
+    font-family:	Arial;
+    font-size:		16pt;
+    font-weight:	bold;
+}
+
+h3 {
+    color:			#DD0000;	/* red */
+    font-family:	Arial;
+    font-size:		14pt;
+    font-weight:	bold;
+}
+
+h4 {
+    color:			#000000;
+    font-family:	Consolas;
+    font-size:		14pt;
+    font-weight:	bold;
+}
+
+h5 {
+    color:			black;
+    margin-top:		0px;
+    font-family:	Arial;
+    font-size:		10pt;
+    font-weight:	bold;
+}
+
+h6 {
+    color:			#000000;
+    font-family:	Consolas;
+    font-size:		14pt;
+    font-weight:	bold;
+}
+
+
+p {
+    color: 			black;
+    font-family:	Arial;
+    font-size:		12pt;
+    font-weight:	normal;
+}
+
+
+pre {
+    margin-left: 	100px;
+    color: 			black;
+    font-family:	Consolas;
+    font-size:		12pt;
+    font-weight:	normal;
+}
+
+
+
+.lab_title {
+    color: 			black;
+    margin-top:		5px;
+    margin-bottom:	5px;
+    font-family:	Arial;
+    font-size:		14pt;
+    font-weight:	normal;
+}
+
+.footer_text {
+    color: 			black;
+    font-family:	Arial;
+    font-size:		10pt;
+    font-weight:	normal;
+}
+
+
+/* ========================================================================= */
+
+/* Lab-Specific Formats Go Here: */
+
+#mugContainer {}
+
