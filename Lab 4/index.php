@@ -25,14 +25,14 @@ Title: 	Lab 4 - Section 2, Section 3
  * Date: 24/02/2016
  * Time: 15:57
  */
-echo "Hello World";
-echo "Hello, Beautiful World";
-echo "Hello"." "."My Lovely"."!";
-echo 5*7;
+echo "Hello World"<br>;
+echo "Hello, Beautiful World"<br>;
+echo "Hello"." "."My Lovely"."!"<br>;
+echo 5*7<br>;
 $myname = "Frodo Baggins";
 $myage = 111;
-echo "Hello, My Name is ".$myname." and My Age is ".$myage;
-echo "I get printed";
+echo "Hello, My Name is ".$myname." and My Age is ".$myage<br>;
+echo "I get printed"<br>;
 // I don't get printed because I am a comment.
 /* and, furthermore, i don't get printed either
 because I am also a comment.*/
